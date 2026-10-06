@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #f4f6fb;
+    line-height: 1.6;
+}
+
+/* ===== BAGIAN UMUM (Ketua) ===== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 16px 32px;
+    background-color: #1f3864;
+    color: white;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+#tombol-tema {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: #1f3864;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 20px;
+}
+
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px 32px;
+    text-align: center;
+    background-color: #1f3864;
+    color: white;
+}
+
+/* Mode gelap (dipasang oleh JavaScript) */
+body.gelap {
+    background-color: #121826;
+    color: #e8e8e8;
+}
+
+body.gelap .card {
+    background-color: #1c2538;
+    border-color: #33415c;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .menu {
+        gap: 14px;
+    }
+}
+
+/* ===== BAGIAN MAHASISWA 2 (Beranda) ===== */
+/* ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) ===== */
+/* ===== BAGIAN MAHASISWA 4 (Kontak) ===== */
