@@ -105,14 +105,13 @@ body.gelap .card {
 }
 
 /* ===== BAGIAN MAHASISWA 2 (Beranda) ===== */
-/* ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) ===== */
-.section-profil h2, .section-kegiatan h2 {
+/* ===== BAGIAN Alif Kurniawan (Profil dan Kegiatan) ===== */
+.section-profil h2 {
     margin-bottom: 12px;
     color: #1f3864;
 }
 
-body.gelap .section-profil h2, 
-body.gelap .section-kegiatan h2 {
+body.gelap .section-profil h2 {
     color: #60a5fa;
 }
 
@@ -160,4 +159,5 @@ body.gelap .text-info-hidden {
     border-bottom: 2px solid white;
     padding-bottom: 4px;
 }
+
 /* ===== BAGIAN MAHASISWA 4 (Kontak) ===== */

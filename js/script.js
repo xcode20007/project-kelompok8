@@ -11,7 +11,7 @@ if (tombolTema) {
     });
 }
 // ===== BAGIAN MAHASISWA 2 (Beranda) =====
-// ===== BAGIAN MAHASISWA 3 (Profil dan Kegiatan) =====
+// ===== BAGIAN Alif Kurniawan (Profil dan Kegiatan) =====
 const tombolInfoProdi = document.getElementById("tombol-info-prodi");
 if (tombolInfoProdi) {
     tombolInfoProdi.addEventListener("click", function () {
@@ -25,4 +25,5 @@ if (tombolInfoProdi) {
         }
     });
 }
+
 // ===== BAGIAN MAHASISWA 4 (Kontak) =====
