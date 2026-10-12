@@ -198,6 +198,12 @@ body {
     z-index: 1030;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
 /* ===== FAQ ===== */
 .accordion-button:not(.collapsed) {
     color: var(--prodi-navy);
