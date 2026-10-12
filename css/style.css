@@ -159,4 +159,55 @@ body.gelap .text-info-hidden {
     border-bottom: 2px solid white;
     padding-bottom: 4px;
 }
+
 /* ===== BAGIAN MAHASISWA 4 (Kontak) ===== */
+.form-kontak {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 560px;
+}
+
+.form-kontak label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.form-kontak input,
+.form-kontak textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.form-kontak button {
+    margin-top: 16px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1f3864;
+    color: white;
+    cursor: pointer;
+}
+
+#status-form {
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+body.gelap .form-kontak {
+    background-color: #1c2538;
+    border-color: #33415c;
+}
+
+body.gelap .form-kontak input,
+body.gelap .form-kontak textarea {
+    background-color: #121826;
+    color: #e8e8e8;
+    border-color: #33415c;
+}
