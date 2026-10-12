@@ -206,5 +206,13 @@ body {
 /* Informasi ============================ */
 
 /* FAQ ============================ */
+.section-faq a {
+    color: var(--prodi-navy);
+    word-break: break-all;
+}
 
+.section-faq a:hover {
+    color: var(--prodi-navy-gelap);
+    text-decoration: underline !important;
+}
 /* Layanan ============================ */
