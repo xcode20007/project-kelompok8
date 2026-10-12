@@ -1,11 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disdukcapil - Layanan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Disdukcapil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="profil.html">Profil</a></li>
+          <li class="nav-item"><a class="nav-link active" href="layanan.html">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link" href="informasi.html">Informasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="py-5">
+    <div class="container">
+      <h2 class="mb-4 border-bottom pb-2">Layanan Kependudukan</h2>
+      <p class="text-muted mb-4">Berikut adalah jenis-jenis layanan administrasi kependudukan yang dapat Anda ajukan:</p>
+
+      <div class="table-responsive">
+        <table class="table table-striped table-hover align-middle">
+          <thead class="table-primary">
+            <tr>
+              <th scope="col">No</th>
+              <th scope="col">Jenis Layanan</th>
+              <th scope="col">Persyaratan Utama</th>
+              <th scope="col">Estimasi Waktu</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Penerbitan KTP-el</td>
+              <td>Surat Pengantar RT/RW, Fotokopi KK, Usia minimal 17 tahun</td>
+              <td>1-3 Hari Kerja</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Kartu Keluarga (KK) Baru / Perubahan Data</td>
+              <td>Buku Nikah/Kutipan Akta Perkawinan, KK Lama, Surat Pindah (jika ada)</td>
+              <td>1-2 Hari Kerja</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Penerbitan Akta Kelahiran</td>
+              <td>Surat Keterangan Lahir dari Bidan/Klinik/RS, KK, KTP Orang Tua</td>
+              <td>2-4 Hari Kerja</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Penerbitan Akta Kematian</td>
+              <td>Surat Keterangan Kematian dari Dokter/Desa, KTP & KK Almarhum</td>
+              <td>1-2 Hari Kerja</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Kartu Identitas Anak (KIA)</td>
+              <td>Fotokopi Akta Kelahiran, KK Orang Tua, Pas foto 2x3 (anak > 5 th)</td>
+              <td>1-2 Hari Kerja</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-3 text-center mt-auto">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Dinas Kependudukan dan Pencatatan Sipil. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
