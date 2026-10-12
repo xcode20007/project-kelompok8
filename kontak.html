@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak | Website Prodi</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <h1 class="logo">Website Prodi</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="kegiatan.html">Kegiatan</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <button id="tombol-tema" type="button">Mode Gelap</button>
+    </header>
+    <!-- Konten utama -->
+    <main>
+        <h2>Hubungi Kami</h2>
+        <section class="card blok">
+            <h3>Informasi Kontak</h3>
+            <ul class="daftar-misi">
+                <li>Alamat: Jl. Contoh No. 1, Kota Anda</li>
+                <li>Email: prodi@contoh.ac.id</li>
+                <li>Telepon: (0000) 000-000</li>
+            </ul>
+        </section>
+        <section class="form-kontak">
+            <h3>Kirim Pesan</h3>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" placeholder="Nama Anda" />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@contoh.com" />
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" rows="4"></textarea>
+            <button type="button" id="tombol-kirim">Kirim</button>
+            <p id="status-form"></p>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Program Studi D3 Teknik Informatika</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
