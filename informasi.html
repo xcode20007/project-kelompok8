@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disdukcapil - Informasi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Disdukcapil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="profil.html">Profil</a></li>
+          <li class="nav-item"><a class="nav-link" href="layanan.html">Layanan</a></li>
+          <li class="nav-item"><a class="nav-link active" href="informasi.html">Informasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="py-5">
+    <div class="container">
+      <h2 class="mb-4 border-bottom pb-2">Informasi & Pengumuman</h2>
+
+      <div class="row g-4">
+        <!-- Jam Operasional -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm border-primary">
+            <div class="card-body">
+              <h4 class="card-title text-primary mb-3">Jadwal Jam Pelayanan</h4>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between">
+                  <span>Senin - Kamis</span>
+                  <strong>08.00 - 15.00 WIB</strong>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  <span>Jumat</span>
+                  <strong>08.00 - 11.30 WIB</strong>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  <span>Sabtu, Minggu & Libur Nasional</span>
+                  <span class="text-danger fw-bold">Tutup</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Maklumat Pelayanan -->
+        <div class="col-md-6">
+          <div class="card h-100 shadow-sm border-success">
+            <div class="card-body">
+              <h4 class="card-title text-success mb-3">Maklumat Pelayanan</h4>
+              <p class="card-text">
+                "Sanggup menyelenggarakan pelayanan administrasi kependudukan sesuai standar pelayanan yang telah ditetapkan. Apabila tidak memenuhi standar tersebut, kami siap menerima sanksi sesuai dengan peraturan perundang-undangan yang berlaku."
+              </p>
+              <div class="alert alert-info mb-0 mt-3" role="alert">
+                <strong>Catatan:</strong> Seluruh pelayanan dokumen kependudukan <strong>TIDAK DIPUNGUT BIAYA (GRATIS)</strong>.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pengumuman Terbaru -->
+        <div class="col-md-12">
+          <div class="card shadow-sm">
+            <div class="card-header bg-light">
+              <h5 class="mb-0">Pengumuman Terbaru</h5>
+            </div>
+            <div class="card-body">
+              <h6 class="fw-bold">Aktivasi Identitas Kependudukan Digital (IKD)</h6>
+              <p class="text-muted small">Diterbitkan pada: 10 Oktober 2026</p>
+              <p>Masyarakat diimbau untuk segera melakukan aktivasi Aplikasi Identitas Kependudukan Digital (IKD) melalui ponsel Android/iOS. Aktivasi dapat dilakukan secara langsung di Kantor Disdukcapil atau loket pelayanan Kecamatan terdekat.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-3 text-center mt-auto">
+    <div class="container">
+      <p class="mb-0">&copy; 2026 Dinas Kependudukan dan Pencatatan Sipil. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
