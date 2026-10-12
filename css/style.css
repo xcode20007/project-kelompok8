@@ -192,6 +192,13 @@ body {
     z-index: 1030;
 }
 
+/* Img fluid untuk gambar hero dan ilustrasi */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 /* Beranda ============================ */
 
 /* Profil ============================ */
