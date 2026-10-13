@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ | Disdukcapil Cilacap (Tugas Praktikum)</title>
+    <meta name="description"
+        content="Pertanyaan yang sering diajukan seputar layanan kependudukan di Kabupaten Cilacap." />
+    <link rel="icon" type="image/svg+xml" href="images/cilacap.png" />
+    <!-- Bootstrap 5 dan Bootstrap Icons (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-prodi sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="images/cilacap.png" width="40" height="40" alt="Logo Disdukcapil Cilacap (ilustrasi)" />
+                <span class="lh-sm">Disdukcapil<br /><small class="fw-normal">Kabupaten Cilacap</small></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-utama"
+                aria-controls="menu-utama" aria-expanded="false" aria-label="Buka menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu-utama">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profil.html">Profil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="informasi.html">Informasi</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="layanan.html">Layanan</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="page-header text-white py-5">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-2">
+                        <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">FAQ</li>
+                    </ol>
+                </nav>
+                <h1 class="display-6 fw-bold">FAQ</h1>
+                <p class="lead mb-0">Pertanyaan yang sering diajukan seputar layanan kependudukan</p>
+            </div>
+        </header>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-9">
+                        <label for="cari-faq" class="form-label fw-semibold">Cari pertanyaan</label>
+                        <div class="input-group mb-2">
+                            <span class="input-group-text"><i class="bi bi-search"></i></span>
+                            <input type="search" id="cari-faq" class="form-control"
+                                placeholder="Contoh: akta kelahiran, biaya, aplikasi" autocomplete="off" />
+                        </div>
+                        <p id="faq-jumlah" class="small text-body-secondary mb-3" aria-live="polite">12 pertanyaan
+                            ditampilkan</p>
+
+                        <div class="accordion" id="akordeon-faq">
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-1" aria-expanded="true" aria-controls="faq-1">Apakah
+                                        mengurus dokumen kependudukan dipungut biaya?</button>
+                                </h2>
+                                <div id="faq-1" class="accordion-collapse collapse show" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Pada dasarnya tidak. Pengurusan dokumen kependudukan
+                                        tidak dipungut biaya sesuai ketentuan administrasi kependudukan. Hindari calo
+                                        dan laporkan bila ada permintaan uang.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-2" aria-expanded="false" aria-controls="faq-2">Apa itu
+                                        aplikasi Dolan Teluk Penyu?</button>
+                                </h2>
+                                <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Dolan Teluk Penyu adalah aplikasi layanan kependudukan
+                                        daring dari Disdukcapil Kabupaten Cilacap yang dapat diunduh di Play Store.
+                                        Aplikasi ini mulai diluncurkan pada Januari 2024.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-3" aria-expanded="false" aria-controls="faq-3">Layanan apa
+                                        saja yang bisa diajukan lewat aplikasi?</button>
+                                </h2>
+                                <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Berdasarkan pemberitaan peluncurannya, layanannya
+                                        meliputi perubahan data, pindah masuk, pindah keluar, akta kelahiran, dan akta
+                                        kematian. Daftar ini bisa berubah, jadi cek informasi terbaru dari Disdukcapil.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-4" aria-expanded="false" aria-controls="faq-4">Setelah
+                                        mengajukan lewat aplikasi, apakah masih harus ke kantor?</button>
+                                </h2>
+                                <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Umumnya ya. Alurnya: mengajukan permohonan lewat
+                                        aplikasi, lalu datang ke kantor untuk menyerahkan berkas dan mengambil dokumen
+                                        yang sudah jadi.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-5" aria-expanded="false" aria-controls="faq-5">Di mana saja
+                                        kantor UPT Disdukcapil Cilacap?</button>
+                                </h2>
+                                <div id="faq-5" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Menurut pemberitaan tahun 2018, UPT berada di Kroya,
+                                        Cilacap, Jeruklegi, Sidareja, dan Majenang. Pastikan lokasi dan jam layanan
+                                        terbaru langsung ke kantor.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-6" aria-expanded="false" aria-controls="faq-6">Dokumen apa
+                                        saja yang disiapkan untuk membuat Kartu Keluarga baru?</button>
+                                </h2>
+                                <div id="faq-6" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Umumnya KK lama, KTP-el, dan dokumen pendukung sesuai
+                                        keperluan, misalnya buku nikah atau kutipan akta perkawinan untuk pasangan yang
+                                        baru menikah. Lihat rincian pada halaman Layanan.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-7" aria-expanded="false" aria-controls="faq-7">Bagaimana
+                                        cara membuat akta kelahiran?</button>
+                                </h2>
+                                <div id="faq-7" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Siapkan surat keterangan lahir dari rumah sakit, bidan,
+                                        atau desa, KK, KTP-el orang tua, dan dokumen perkawinan orang tua bila ada. Lalu
+                                        ajukan sesuai alur yang berlaku.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-8" aria-expanded="false" aria-controls="faq-8">Apa yang
+                                        harus dilakukan jika KTP-el hilang?</button>
+                                </h2>
+                                <div id="faq-8" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Umumnya diperlukan surat keterangan kehilangan dari
+                                        kepolisian dan KK, kemudian pengajuan pengganti ke kantor. Tanyakan persyaratan
+                                        terbaru kepada petugas.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-9" aria-expanded="false" aria-controls="faq-9">Siapa yang
+                                        wajib memiliki KTP-el?</button>
+                                </h2>
+                                <div id="faq-9" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Warga negara Indonesia yang berusia 17 tahun ke atas,
+                                        atau yang sudah atau pernah menikah.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-10" aria-expanded="false" aria-controls="faq-10">Apa itu
+                                        Kartu Identitas Anak (KIA)?</button>
+                                </h2>
+                                <div id="faq-10" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">KIA adalah kartu identitas untuk anak di bawah 17 tahun
+                                        yang belum menikah. Persyaratan umumnya mencakup akta kelahiran, KK, dan KTP-el
+                                        orang tua.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-11" aria-expanded="false" aria-controls="faq-11">Apa itu
+                                        Identitas Kependudukan Digital (IKD)?</button>
+                                </h2>
+                                <div id="faq-11" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">IKD adalah versi digital dari KTP-el yang dipasang pada
+                                        smartphone. Cara aktivasinya mengikuti ketentuan terbaru dari pemerintah,
+                                        sehingga sebaiknya ditanyakan ke petugas.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#faq-12" aria-expanded="false" aria-controls="faq-12">Bagaimana
+                                        menjaga data pribadi saat mengurus dokumen?</button>
+                                </h2>
+                                <div id="faq-12" class="accordion-collapse collapse" data-bs-parent="#akordeon-faq">
+                                    <div class="accordion-body">Jangan membagikan NIK, foto KK, atau kode OTP kepada
+                                        orang tidak dikenal, dan gunakan hanya aplikasi dan kanal resmi.</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="faq-kosong" class="alert alert-info mt-3 d-none" role="status">
+                            Tidak ada pertanyaan yang cocok. Coba kata kunci lain atau lihat halaman <a
+                                href="informasi.html">Informasi</a>.
+                        </div>
+
+                        <div class="card mt-4 text-center">
+                            <h2 class="h5">Belum menemukan jawaban?</h2>
+                            <p class="mb-0 text-body-secondary">Tanyakan langsung kepada petugas di kantor Disdukcapil
+                                Cilacap atau UPT kecamatan terdekat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-prodi text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-5">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <img src="images/cilacap.png" width="40" height="40" alt="" />
+                        <strong>Disdukcapil Kabupaten Cilacap</strong>
+                    </div>
+                    <p class="small mb-0">Informasi layanan administrasi kependudukan dan pencatatan sipil di Kabupaten
+                        Cilacap, Jawa Tengah.</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="h6 text-uppercase">Menu</h2>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0" href="index.html">Beranda</a>
+                        </li>
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0" href="profil.html">Profil</a>
+                        </li>
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0"
+                                href="informasi.html">Informasi</a></li>
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0" href="faq.html">FAQ</a></li>
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0" href="layanan.html">Layanan</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4">
+                    <h2 class="h6 text-uppercase">Informasi Resmi</h2>
+                    <p class="small mb-0">Untuk data dan pengumuman resmi, hubungi kantor Disdukcapil Cilacap atau UPT
+                        kecamatan terdekat.</p>
+                </div>
+            </div>
+            <hr class="border-light opacity-25 mt-4" />
+            <p class="small text-center mb-0">
+                &copy; <span id="tahun">2026</span> Tugas Praktikum Pemrograman Web Dasar. Bukan website resmi
+                pemerintah.
+            </p>
+        </div>
+    </footer>
+
+    <button id="ke-atas" type="button" class="btn btn-warning shadow d-none" aria-label="Kembali ke atas">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS dan script project -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

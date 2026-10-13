@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informasi | Disdukcapil Cilacap (Tugas Praktikum)</title>
+    <meta name="description"
+        content="Informasi jenis dokumen kependudukan, persiapan berkas, lokasi layanan, dan tips aman." />
+    <link rel="icon" type="image/svg+xml" href="images/cilacap.png" />
+    <!-- Bootstrap 5 dan Bootstrap Icons (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-prodi sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="images/cilacap.png" width="40" height="40" alt="Logo Disdukcapil Cilacap (ilustrasi)" />
+                <span class="lh-sm">Disdukcapil<br /><small class="fw-normal">Kabupaten Cilacap</small></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-utama"
+                aria-controls="menu-utama" aria-expanded="false" aria-label="Buka menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu-utama">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="profil.html">Profil</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page"
+                            href="informasi.html">Informasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="layanan.html">Layanan</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <header class="page-header text-white py-5">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-2">
+                        <li class="breadcrumb-item"><a href="index.html">Beranda</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Informasi</li>
+                    </ol>
+                </nav>
+                <h1 class="display-6 fw-bold">Informasi</h1>
+                <p class="lead mb-0">Panduan memahami dokumen, menyiapkan berkas, dan menghindari penipuan</p>
+            </div>
+        </header>
+
+        <section class="py-5">
+            <div class="container">
+                <ul class="nav nav-pills flex-column flex-sm-row gap-2 mb-4" id="tab-informasi" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="tab-dokumen" data-bs-toggle="pill"
+                            data-bs-target="#isi-dokumen" type="button" role="tab" aria-controls="isi-dokumen"
+                            aria-selected="true">Jenis Dokumen</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab-berkas" data-bs-toggle="pill" data-bs-target="#isi-berkas"
+                            type="button" role="tab" aria-controls="isi-berkas" aria-selected="false">Persiapan
+                            Berkas</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab-lokasi" data-bs-toggle="pill" data-bs-target="#isi-lokasi"
+                            type="button" role="tab" aria-controls="isi-lokasi" aria-selected="false">Lokasi dan
+                            Kanal</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="tab-waspada" data-bs-toggle="pill" data-bs-target="#isi-waspada"
+                            type="button" role="tab" aria-controls="isi-waspada" aria-selected="false">Waspada Calo dan
+                            Data Pribadi</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+
+                    <!-- Jenis dokumen -->
+                    <div class="tab-pane fade show active" id="isi-dokumen" role="tabpanel"
+                        aria-labelledby="tab-dokumen" tabindex="0">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered align-middle bg-white">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th scope="col">Dokumen</th>
+                                        <th scope="col">Fungsi</th>
+                                        <th scope="col">Umumnya untuk</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">KTP Elektronik (KTP-el)</th>
+                                        <td>Identitas resmi penduduk.</td>
+                                        <td>WNI berusia 17 tahun ke atas, atau sudah/pernah menikah.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Kartu Keluarga (KK)</th>
+                                        <td>Data susunan dan hubungan anggota keluarga.</td>
+                                        <td>Setiap keluarga.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Kartu Identitas Anak (KIA)</th>
+                                        <td>Identitas bagi anak.</td>
+                                        <td>Anak di bawah 17 tahun dan belum menikah.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Akta Kelahiran</th>
+                                        <td>Bukti resmi kelahiran.</td>
+                                        <td>Setiap anak yang lahir.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Akta Kematian</th>
+                                        <td>Bukti resmi kematian.</td>
+                                        <td>Keluarga yang melaporkan kematian.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Surat Pindah</th>
+                                        <td>Bukti perpindahan penduduk antar wilayah.</td>
+                                        <td>Warga yang berpindah domisili.</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Identitas Kependudukan Digital (IKD)</th>
+                                        <td>KTP-el versi digital di smartphone.</td>
+                                        <td>Pemilik KTP-el yang ingin identitas digital.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Persiapan berkas -->
+                    <div class="tab-pane fade" id="isi-berkas" role="tabpanel" aria-labelledby="tab-berkas"
+                        tabindex="0">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <h3 class="h5"><i class="bi bi-check2-square"></i> Sebelum berangkat</h3>
+                                    <ul class="mb-0">
+                                        <li>Cek persyaratan sesuai jenis layanan di halaman <a
+                                                href="layanan.html">Layanan</a>.</li>
+                                        <li>Bawa dokumen asli dan fotokopinya.</li>
+                                        <li>Pastikan nama, NIK, dan tanggal lahir sama di semua dokumen.</li>
+                                        <li>Siapkan nomor ponsel dan email yang aktif.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <h3 class="h5"><i class="bi bi-lightbulb"></i> Agar prosesnya lancar</h3>
+                                    <ul class="mb-0">
+                                        <li>Perbaiki dulu data yang salah sebelum mengajukan dokumen baru.</li>
+                                        <li>Untuk anak atau anggota keluarga lain, sertakan KTP-el pelapor.</li>
+                                        <li>Simpan bukti pengajuan dan tanda terima.</li>
+                                        <li>Tanyakan kepada petugas bila ada berkas yang belum jelas.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Lokasi dan kanal -->
+                    <div class="tab-pane fade" id="isi-lokasi" role="tabpanel" aria-labelledby="tab-lokasi"
+                        tabindex="0">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <h3 class="h5"><i class="bi bi-geo-alt"></i> Kantor UPT</h3>
+                                    <p>Menurut pemberitaan tahun 2018, UPT berada di lima kecamatan:</p>
+                                    <ul class="mb-2">
+                                        <li>Kroya</li>
+                                        <li>Cilacap</li>
+                                        <li>Jeruklegi</li>
+                                        <li>Sidareja</li>
+                                        <li>Majenang</li>
+                                    </ul>
+                                    <p class="small text-body-secondary mb-0">Alamat lengkap dan jam layanan sebaiknya
+                                        dikonfirmasi ke kantor Disdukcapil Cilacap.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <h3 class="h5"><i class="bi bi-phone"></i> Aplikasi Dolan Teluk Penyu</h3>
+                                    <p>Aplikasi kependudukan daring dari Disdukcapil Cilacap, tersedia di Play Store.
+                                        Pada peluncurannya (Januari 2024), layanan yang dapat diajukan:</p>
+                                    <ul class="mb-2">
+                                        <li>Perubahan data</li>
+                                        <li>Pindah masuk dan pindah keluar</li>
+                                        <li>Akta kelahiran</li>
+                                        <li>Akta kematian</li>
+                                    </ul>
+                                    <p class="small text-body-secondary mb-0">Setelah mengajukan, warga umumnya datang
+                                        ke kantor untuk menyerahkan berkas dan mengambil dokumen.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Waspada -->
+                    <div class="tab-pane fade" id="isi-waspada" role="tabpanel" aria-labelledby="tab-waspada"
+                        tabindex="0">
+                        <div class="alert alert-warning" role="alert">
+                            <strong>Penting:</strong> pengurusan dokumen kependudukan pada dasarnya tidak dipungut biaya
+                            sesuai ketentuan administrasi kependudukan.
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <h3 class="h5"><i class="bi bi-shield-exclamation"></i> Waspada calo</h3>
+                                    <ul class="mb-0">
+                                        <li>Jangan menyerahkan uang kepada pihak yang menjanjikan proses cepat.</li>
+                                        <li>Ajukan sendiri lewat loket resmi atau aplikasi resmi.</li>
+                                        <li>Laporkan pungutan liar kepada petugas atau kanal pengaduan resmi.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <h3 class="h5"><i class="bi bi-lock"></i> Lindungi data pribadi</h3>
+                                    <ul class="mb-0">
+                                        <li>Jangan membagikan NIK, foto KK, atau kode OTP kepada orang tidak dikenal.
+                                        </li>
+                                        <li>Unduh aplikasi hanya dari toko aplikasi resmi.</li>
+                                        <li>Hati-hati terhadap tautan atau pesan yang mengatasnamakan instansi.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-prodi text-white pt-5 pb-3">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-5">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <img src="images/cilacap.png" width="40" height="40" alt="" />
+                        <strong>Disdukcapil Kabupaten Cilacap</strong>
+                    </div>
+                    <p class="small mb-0">Informasi layanan administrasi kependudukan dan pencatatan sipil di Kabupaten
+                        Cilacap, Jawa Tengah.</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="h6 text-uppercase">Menu</h2>
+                    <ul class="list-unstyled small mb-0">
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0" href="index.html">Beranda</a>
+                        </li>
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0" href="profil.html">Profil</a>
+                        </li>
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0"
+                                href="informasi.html">Informasi</a></li>
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0" href="faq.html">FAQ</a></li>
+                        <li class="mb-1"><a class="link-light link-underline-opacity-0" href="layanan.html">Layanan</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md-4">
+                    <h2 class="h6 text-uppercase">Informasi Resmi</h2>
+                    <p class="small mb-0">Untuk data dan pengumuman resmi, hubungi kantor Disdukcapil Cilacap atau UPT
+                        kecamatan terdekat.</p>
+                </div>
+            </div>
+            <hr class="border-light opacity-25 mt-4" />
+            <p class="small text-center mb-0">
+                &copy; <span id="tahun">2026</span> Tugas Praktikum Pemrograman Web Dasar. Bukan website resmi
+                pemerintah.
+            </p>
+        </div>
+    </footer>
+
+    <button id="ke-atas" type="button" class="btn btn-warning shadow d-none" aria-label="Kembali ke atas">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS dan script project -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
