@@ -1,4 +1,8 @@
-/* Umum ============================ */
+/* =========================================================
+ Website Disdukcapil Cilacap (tugas praktikum)
+ Bootstrap 5 + penyesuaian tema
+ ========================================================= */
+
 :root {
     --prodi-navy: #0b3a6e;
     --prodi-navy-gelap: #082a52;
@@ -16,7 +20,7 @@ body {
     color: #1f2937;
 }
 
-/* Tombol bertema */
+/* ===== Tombol bertema ===== */
 .btn-primary {
     --bs-btn-bg: #0b3a6e;
     --bs-btn-border-color: #0b3a6e;
@@ -121,7 +125,9 @@ body {
 }
 
 .kartu-layanan {
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
 }
 
 .kartu-layanan:hover {
@@ -192,27 +198,14 @@ body {
     z-index: 1030;
 }
 
-/* Img fluid untuk gambar hero dan ilustrasi */
 .img-fluid {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
-/* Beranda ============================ */
-
-/* Profil ============================ */
-
-/* Informasi ============================ */
-
-/* FAQ ============================ */
-.section-faq a {
+/* ===== FAQ ===== */
+.accordion-button:not(.collapsed) {
     color: var(--prodi-navy);
-    word-break: break-all;
+    background-color: #e3ecfa;
 }
-
-.section-faq a:hover {
-    color: var(--prodi-navy-gelap);
-    text-decoration: underline !important;
-}
-/* Layanan ============================ */
